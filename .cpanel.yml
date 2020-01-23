@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/appconmi/public_html/test/
-    - cp -r * $DEPLOYPATH
+    - /bin/rsync * $DEPLOYPATH
